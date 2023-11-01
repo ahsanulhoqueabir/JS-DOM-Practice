@@ -8,17 +8,17 @@
 
 In this repository,i will try to add some basic projects which are made up using JAVASCRIPT DOM. 
 
-##Description of Projects:
+<h1> Description of Projects: </h1>
 
-1.
-
+<ol>
+<li> <p>
 Project: Counter<br>
 Language: HTML5,CSS,JAVASCRIPT<br>
 Focused: DOM<br>
-Responsiveness: YES
-Description: I divided this projects in two parts. One of this do Plus-Minus operation by handling two plus-minus button. And other part do Multiplication and division by handling two different button. Green color means values of counter is increasing and Red means to vice-versa.
+Responsiveness: YES<br>
+Description: I divided this projects in two parts. One of this do Plus-Minus operation by handling two plus-minus button. And other part do Multiplication and division by handling two different button. Green color means values of counter is increasing and Red means to vice-versa. </p></li>
 
-Live: https://ahsanulhoqueabir.github.io/A-Simple-TO-DO-APP/
+</ol>
 
 
 ## How to run
