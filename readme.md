@@ -12,16 +12,18 @@ In this repository,i will try to add some basic projects which are made up using
 
 <ol>
 <li> <p>
-<<<<<<< HEAD
 Project: <b> Counter</b> <br>
-=======
-Project:<b> Counter </b><br>
->>>>>>> 1902deb4d92a2cf5fba7d9d8fb70f8cf61cf17f3
 Language: HTML5,CSS,JAVASCRIPT<br>
 Focused: DOM<br>
 Responsiveness: YES<br>
 Description: I divided this projects in two parts. One of this do Plus-Minus operation by handling two plus-minus button. And other part do Multiplication and division by handling two different button. Green color means values of counter is increasing and Red means to vice-versa. </p></li>
 
+<li> <p>
+Project: <b> Review Your University </b><br>
+Language: HTML5, CSS3, JavaScript<br>
+Focused: DOM <br>
+Responsiveness: YES <br>
+Description: In this project, basically i gave a picture of my uuversity shaheed minar's art to reference of my university. And give a textarea where a user write his/her review here and using DOM i show his/her written review in besides(PC/Leptop) or Below(Mobile) of Comment Box.In this way we can implement the comment section also. </p></li>
 </ol>
 
 
