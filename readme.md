@@ -4,11 +4,11 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
- <h3 align="center">Basic Projects with JS DOM</h3>
+ <h1 align="center">Basic Projects with JS DOM</h1>
 
 In this repository,i will try to add some basic projects which are made up using JAVASCRIPT DOM. 
 
-<h1> Description of Projects: </h1>
+<h2> Description of Projects: </h2>
 
 <ol>
 <li> <p>
