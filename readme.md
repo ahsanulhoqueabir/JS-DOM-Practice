@@ -12,7 +12,7 @@ In this repository,i will try to add some basic projects which are made up using
 
 <ol>
 <li> <p>
-Project: Counter<br>
+Project: <b> Counter</b> <br>
 Language: HTML5,CSS,JAVASCRIPT<br>
 Focused: DOM<br>
 Responsiveness: YES<br>
