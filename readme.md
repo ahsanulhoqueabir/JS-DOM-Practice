@@ -27,7 +27,7 @@ Please follow the below instructions to run this project in your machine:
 
 1. Clone this repository
    ```sh
-   git clone https://github.com/ahsanulhoqueabir/A-Simple-TO-DO-APP.git
+   git clone https://github.com/ahsanulhoqueabir/JS-DOM-Practice.git
    ```
 2. Double click the index.html file or if you use Visual Studio Code, then you can use the Live Server plugin to run the index.html file with Live Server
 
