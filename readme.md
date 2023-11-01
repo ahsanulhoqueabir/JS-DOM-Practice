@@ -42,4 +42,4 @@ Please follow the below instructions to run this project in your machine:
 [instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
 [instagram-url]: https://instagram.com/Ahsanul.H.abir
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/ahsanulhoqueabir
+[linkedin-url]: https://linkedin.com/in/ahsanulhoqueabir
