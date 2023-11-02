@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping with DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- headerer -->
+    <header>
+        <div class="navbar bg-base-100 shadow-xl " >
+            <div class="flex-1">
+              <a class="btn btn-ghost normal-case text-xl">Project with AHSAN</a>
+            </div>
+            <div class="flex-none gap-2">
+              <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              </div>
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="./img/abir.jpeg" />
+                  </div>
+                </label>
+                <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </header>
+      <!-- main section -->
+      <main>
+        <section class="lg:mx-3 flex flex-col md:flex-row ">
+
+            <!-- product card  -->
+            <div class="products-details sm:w-[100%] md:w-[70%]  grid md:grid-cols-2 mt-6 lg:grid-cols-3 gap-3">
+                <div id="laptop" class="card card-compact w-full h-full bg-blue-100 shadow-xl">
+                    <figure><img class="w-full h-60 p-2" src="./img/laptop.png" alt="Not Found" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Laptop</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus laboriosam mollitia aliquam nostrum repudiandae vero, dolorem deserunt? Ex, dolorum.</p>
+                      <p>Price : $<span id="lprice">950</span></p>
+                      <p>Quantity : <span id="lquantity">5</span></p>
+                      
+                      <div class="card-actions justify-end ">
+                        <button id="lbtn" class="btn btn-primary ">Add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-full h-full bg-blue-100 shadow-xl">
+                    <figure class=""><img class="w-full h-60 p-3" src="./img/mobile.png" alt="Not Found" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Mobile</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus laboriosam mollitia aliquam nostrum repudiandae vero, dolorem deserunt? Ex, dolorum.</p>
+                      <p>Price : $<span>850</span></p>
+                      <p>Quantity : <span>5</span></p>
+                      
+                      <div class="card-actions justify-end">
+                        <button id="mbtn" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-full h-full bg-blue-100 shadow-xl">
+                    <figure><img class="w-full h-60 p-2" src="./img/table.png" alt="Not Found" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Table</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus laboriosam mollitia aliquam nostrum repudiandae vero, dolorem deserunt? Ex, dolorum.</p>
+                      <p>Price : $<span>250</span></p>
+                      <p>Quantity : <span>5</span></p>
+                      
+                      <div class="card-actions justify-end">
+                        <button id="tbtn" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-full h-full bg-blue-100 shadow-xl">
+                    <figure><img class="w-full h-60 p-4" src="./img/bmw.png" alt="Not Found" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">BMW</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus laboriosam mollitia aliquam nostrum repudiandae vero, dolorem deserunt? Ex, dolorum.</p>
+                      <p>Price : $<span>280000</span></p>
+                      <p>Quantity : <span>5</span></p>
+                      
+                      <div class="card-actions justify-end">
+                        <button id="cbtn" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-full h-full bg-blue-100 shadow-xl">
+                    <figure><img class="h-60" src="./img/lamp.png" alt="Not Found" /></figure>
+                    <div class="card-body">
+                      <h2 id="product" class="card-title">Lamp</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus laboriosam mollitia aliquam nostrum repudiandae vero, dolorem deserunt? Ex, dolorum.</p>
+                      <!-- <p>Price : $<span>45</span></p>
+                      <p>Quantity : <span>5</span></p> -->
+                      
+                    <input id="first" type="text" placeholder="Price" class="input input-bordered input-sm w-full max-w-xs" />
+                    <input id="second" type="text" placeholder="Quantity" class="input input-bordered input-sm w-full max-w-xs" />
+                      
+                      <div class="card-actions justify-end">
+                        <button id="libtn" class="btn btn-primary">Add to Cart</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card details  -->
+            <div class="cart-details mt-6 ml-3 w-[100%] md:w-[30%] mx-auto">
+                <h1 class="text-3xl underline underline-offset-8 font-bold text-center p-2">Total Products: <span id="total">0</span></h1>
+                <div class="overflow-x-auto bg-blue-200">
+                    <table class="table">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th>NO</th>
+                          <th>Name</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody id="table-container">
+                        <!-- data will be added here -->
+                        
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </section>
+      </main>
+
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
