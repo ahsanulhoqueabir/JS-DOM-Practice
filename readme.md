@@ -34,7 +34,7 @@ Responsiveness: NO <br>
 Description: In this project,Customer have a fixed budget using this he have to buy few laptops,Keyboard and Speaker. He can enter his amount of products in every products card. there are also a promo of discount of 10% if he uses 'ahsan' promo code in promo box. After all of this,he can see what amount he have to pay and how much amount saved by using promo in a promo badge and how much money have left.<br>
 Live: https://a-simple-shopping-cart.netlify.app/ </p></li>
 <li><p>
-Project: <b> Calculator </b><br>
+Project: <b> Ao=nother TO DO App </b><br>
 Language: HTML5, CSS3, JavaScript<br>
 Focused: DOM <br>
 Responsiveness: YES <br>
