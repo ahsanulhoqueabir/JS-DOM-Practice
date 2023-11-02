@@ -1,0 +1,130 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .logo img {
+    width: 200px;
+  }
+
+header>h1
+{
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    color: rgb(37, 206, 150);
+}
+h3
+{
+    
+}
+.value
+{
+    color:steelblue;
+}
+
+.container
+{
+    max-width: 750px;
+    display: flex;
+    padding: 25px;
+    gap: 15px;
+    border: 2px solid black;
+}
+#card-container
+{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#tracker
+{
+    width: 100%;
+    margin: 15px;
+    border: 2px dotted black;
+    padding: 10px;
+    height: 400px;
+}
+.item
+{
+    border-bottom: 1px dashed black;
+    padding: 5px 0;
+}
+#promo
+{
+    margin: 20px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color:rgb(130, 205, 205);
+}
+.card
+{
+    background-color: cadetblue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 2px 4px 10px black;
+}
+.card>img
+{
+    width: 80%;
+    height: 70%;
+    
+}
+.input
+{
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.submit
+{
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+}
+#apply
+{
+    padding: 5px 7px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+}
+#discount
+{
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:580px) {
+    .container
+    {
+        flex-direction: column;
+        border: none;
+        padding: 10px;
+    }
+    #tracker
+    {
+        margin: auto;
+    }
+}

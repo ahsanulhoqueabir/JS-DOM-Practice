@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another TO-DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TO DO List</h1>
+    </header>
+
+    <!-- main starts here -->
+
+    <main>
+        <div class="container">
+
+            <!-- Data input Parts -->
+
+            <div class="inputbox">
+                <input type="text" id="input">
+                <button type="submit" class="btn" id="submit">
+                    Add Item</button>
+            </div>
+            <div class="output">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="content">
+                            
+                        <!-- users data will be added her eusing JS DOM  -->
+                    </tbody>
+                </table>
+                <button id="clear" class="btn" type="reset">Clear All</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@
 
  <h1 align="center">Basic Projects with JS DOM</h1>
 
-In this repository,i will try to add some basic projects which are made up using JAVASCRIPT DOM. 
+In this repository,i will try to add some basic projects which are made up using JAVASCRIPT DOM. All projects will developed using HTML,Basic CSS and Vanilla JAVASCRIPT.
 
 <h2> Description of Projects: </h2>
 
@@ -23,7 +23,23 @@ Project: <b> Review Your University </b><br>
 Language: HTML5, CSS3, JavaScript<br>
 Focused: DOM <br>
 Responsiveness: YES <br>
-Description: In this project, basically i gave a picture of my uuversity shaheed minar's art to reference of my university. And give a textarea where a user write his/her review here and using DOM i show his/her written review in besides(PC/Leptop) or Below(Mobile) of Comment Box.In this way we can implement the comment section also. </p></li>
+Description: In this project, basically i gave a picture of my university Shaheed Minar's art to reference of my university. And give a textarea where a user write his/her review here and using DOM i show his/her written review in besides(PC/Leptop) or Below(Mobile) of Comment Box.In this way we can implement the comment section also.<br>
+LIve: https://review-your-university.netlify.app/ </p></li>
+
+<li> <p>
+Project: <b> A simple Shopping Cart </b><br>
+Language: HTML5, CSS3, JavaScript<br>
+Focused: DOM <br>
+Responsiveness: NO <br>
+Description: In this project,Customer have a fixed budget using this he have to buy few laptops,Keyboard and Speaker. He can enter his amount of products in every products card. there are also a promo of discount of 10% if he uses 'ahsan' promo code in promo box. After all of this,he can see what amount he have to pay and how much amount saved by using promo in a promo badge and how much money have left.<br>
+Live: https://a-simple-shopping-cart.netlify.app/ </p></li>
+<li><p>
+Project: <b> Calculator </b><br>
+Language: HTML5, CSS3, JavaScript<br>
+Focused: DOM <br>
+Responsiveness: YES <br>
+Live: https://another-to-do-list-ahsan.netlify.app/ </p></li>
+
 </ol>
 
 
