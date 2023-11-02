@@ -40,7 +40,7 @@ Focused: DOM <br>
 Responsiveness: YES <br>
 Live: https://another-to-do-list-ahsan.netlify.app/ </p></li>
 <li><p>
-Project: <b> Simple Quiz Game </b><br>
+Project: <b> Shopping with DOM </b><br>
 Language: HTML5, CSS3(tailwind,daisyUI), JavaScript<br>
 Focused: DOM <br>
 Responsiveness: YES <br>
